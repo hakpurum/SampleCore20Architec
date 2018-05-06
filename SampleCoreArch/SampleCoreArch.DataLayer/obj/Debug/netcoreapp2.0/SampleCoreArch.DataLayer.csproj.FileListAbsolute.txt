@@ -1,0 +1,14 @@
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.deps.json
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.xml
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.csprojResolveAssemblyReference.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.csproj.CoreCompileInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.AssemblyInfoInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.AssemblyInfo.cs
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.DataLayer\obj\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.pdb

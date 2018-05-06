@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SampleCoreArch.Core\SampleCoreArch.Core.csproj" />
+    <ProjectReference Include="..\SampleCoreArch.DataLayer\SampleCoreArch.DataLayer.csproj" />
+    <ProjectReference Include="..\SampleCoreArch.Entities\SampleCoreArch.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

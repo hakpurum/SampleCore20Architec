@@ -1,0 +1,62 @@
+﻿@model Result<SampleCoreArch.Core.Logging.EventLog>
+@{
+    ViewData["Title"] = "Edit";
+}
+<h2>Edit</h2>
+<h4>EventLog</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form data-bind="with:EventLogViewModel" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ResultObject.Id" class="control-label"></label>
+                <input data-bind="text:Id" asp-for="ResultObject.Id" class="form-control" />
+                <span asp-validation-for="ResultObject.Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.Message" class="control-label"></label>
+                <input data-bind="text:Message" asp-for="ResultObject.Message" class="form-control" />
+                <span asp-validation-for="ResultObject.Message" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.EventId" class="control-label"></label>
+                <input data-bind="text:EventId" asp-for="ResultObject.EventId" class="form-control" />
+                <span asp-validation-for="ResultObject.EventId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.LogLevel" class="control-label"></label>
+                <input data-bind="text:LogLevel" asp-for="ResultObject.LogLevel" class="form-control" />
+                <span asp-validation-for="ResultObject.LogLevel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.IpAdress" class="control-label"></label>
+                <input data-bind="text:IpAdress" asp-for="ResultObject.IpAdress" class="form-control" />
+                <span asp-validation-for="ResultObject.IpAdress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.HostName" class="control-label"></label>
+                <input data-bind="text:HostName" asp-for="ResultObject.HostName" class="form-control" />
+                <span asp-validation-for="ResultObject.HostName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ResultObject.CreatedTime" class="control-label"></label>
+                <input data-bind="text:CreatedTime" asp-for="ResultObject.CreatedTime" class="form-control" />
+                <span asp-validation-for="ResultObject.CreatedTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
+                <input data-bind="click:Save" type="button" value="SaveKO" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        model.EventLogEdit(@this.ViewContext.RouteData.Values["id"],function() { });
+    </script>
+}

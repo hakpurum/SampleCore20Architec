@@ -1,0 +1,1 @@
+{"Id":53,"Message":"{\"Id\":0,\"Message\":\"mesaj\",\"EventId\":1,\"LogLevel\":\"Info\",\"IpAdress\":\"1\",\"HostName\":\"test\",\"CreatedTime\":\"2018-01-08T23:34:37.3084534+03:00\"}","EventId":0,"LogLevel":"Error","IpAdress":"192.168.1.102","HostName":"DESKTOP-F285UFK","CreatedTime":"2018-01-08T20:34:37.3594313Z"},

@@ -1,0 +1,16 @@
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Business.deps.json
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Business.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Business.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.xml
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.DataLayer.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.csprojResolveAssemblyReference.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.csproj.CoreCompileInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.AssemblyInfoInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.AssemblyInfo.cs
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Business\obj\Debug\netcoreapp2.0\SampleCoreArch.Business.pdb

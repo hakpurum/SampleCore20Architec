@@ -1,0 +1,10 @@
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.xml
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.deps.json
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.csprojResolveAssemblyReference.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.csproj.CoreCompileInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.AssemblyInfoInputs.cache
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.AssemblyInfo.cs
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb

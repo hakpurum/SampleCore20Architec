@@ -1,0 +1,50 @@
+﻿@model EventLog
+<div class="row">
+    <div class="col-md-12">
+
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="Id" class="control-label"></label>
+            <input data-bind="value:Id" asp-for="Id" class="form-control" />
+            <span asp-validation-for="Id" class="text-danger"></span>
+        </div>
+        @Html.EditorFor(f => f.Message)
+        <div class="form-group">
+            <label asp-for="EventId" class="control-label"></label>
+            <input data-bind="value:EventId" asp-for="EventId" class="form-control" />
+            <span asp-validation-for="EventId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="LogLevel" class="control-label"></label>
+            <input data-bind="value:LogLevel" asp-for="LogLevel" class="form-control" />
+            <span asp-validation-for="LogLevel" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="IpAdress" class="control-label"></label>
+            <input data-bind="value:IpAdress" asp-for="IpAdress" class="form-control" />
+            <span asp-validation-for="IpAdress" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="HostName" class="control-label"></label>
+            <input data-bind="value:HostName" asp-for="HostName" class="form-control" />
+            <span asp-validation-for="HostName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="CreatedTime" class="control-label"></label>
+            <input data-bind="value:CreatedTime" asp-for="CreatedTime" class="form-control" />
+            <span asp-validation-for="CreatedTime" class="text-danger"></span>
+        </div>
+        
+        @*<div class="form-group">
+            <label asp-for="CreatedTime" class="control-label"></label>
+            <select class="form-control" data-bind="options : availableCountries ,optionsText: 'name',optionsValue: 'name',value: selectedCountry,valueUpdate: 'afterkeydown'"></select>
+            <span asp-validation-for="CreatedTime" class="text-danger"></span>
+        </div>*@
+        
+        <div>
+            You have chosen a country with population
+            <span data-bind="text: selectedCountry"></span>.
+        </div>
+
+    </div>
+</div>

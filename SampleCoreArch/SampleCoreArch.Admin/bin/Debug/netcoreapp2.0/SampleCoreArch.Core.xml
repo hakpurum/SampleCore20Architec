@@ -1,0 +1,427 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SampleCoreArch.Core</name>
+    </assembly>
+    <members>
+        <member name="T:SampleCoreArch.Core.Common.Result`1">
+            <summary>
+            Data katmanı ile iş katmanı arasındaki veri akışını generic hale getirmek için kullanılır
+            </summary>
+            <typeparam name="T">İş katmanınızdaki geriye dönen model ne ise o tipde sınıf alır</typeparam>
+        </member>
+        <member name="M:SampleCoreArch.Core.Common.Result`1.#ctor">
+            <summary>
+            Default olarak ResultCode,ResultStatus değerlerine atama yapılır
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Common.Result`1.ResultObject">
+            <summary>
+            İş katmanınızdan dönen veriye erişmenizi sağlar
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Common.Result`1.ResultMessage">
+            <summary>
+            İş katmanınızdaki veriye erişirken hata oluşması durumunda ya da iş kuralı sırasında uyarı mesajı kullanıcıya gösterilmek istenirse bu alana set edilir 
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Common.Result`1.ResultInnerMessage">
+            <summary>
+            İş katmanınızda daha detaylı bir mesaj dönmek isterseniz bu alana set edilir
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Common.Result`1.ResultStatus">
+            <summary>
+            İş katmanınızda işlem o anki işlem yapılırken işlemin durumu başarılı/başarısız bu alana set edilir
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Common.Result`1.ResultCode">
+            <summary>
+            İş katmanınızda işlem o anki işlem yapılırken işlemin durumu ResultStatusCode enum tanımları işinden belirlenerek bu alana set edilir
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.Concrete.MailModel">
+            <summary>
+            Mail gönderimi için kullanılır.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.From">
+            <summary>
+            Maili gönderen kim.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.To">
+            <summary>
+            Mail kime gönderilecek.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.Cc">
+            <summary>
+            Bilgilendirilecek kişiler.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.Bcc">
+            <summary>
+            Bilgilendirilecek kişiler gizli.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.Subject">
+            <summary>
+            Mail Konu.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.Body">
+            <summary>
+            Mail içeriği.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.MailServer">
+            <summary>
+            Mail Sunucusu.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.MailUser">
+            <summary>
+            Mail sunucu kullanıcı adı.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.MailPassword">
+            <summary>
+            Mail sunucu kullanıcı şifresi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.Port">
+            <summary>
+            Mail sunucu port numarası.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.EnableSsl">
+            <summary>
+            SSL aktif mi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Concrete.MailModel.AttachmentFilename">
+            <summary>
+            Mail ile gönderilecek dosya eki.
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.DataAccess.EfRepository`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEntity">The type of the entity.</typeparam>
+            <seealso cref="T:SampleCoreArch.Core.Interfaces.IEntityRepository`1" />
+        </member>
+        <member name="F:SampleCoreArch.Core.DataAccess.EfRepository`1.Context">
+            <summary>
+            The context
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.DataAccess.EfRepository`1.Dbset">
+            <summary>
+            The dbset
+            </summary>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SampleCoreArch.Core.DataAccess.EfRepository`1"/> class.
+            </summary>
+            <param name="context">The context.</param>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.GetFindById(System.Int32)">
+            <summary>
+            Gets the find by identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Get(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Gets the specified filter.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.GetList(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Gets the list.
+            </summary>
+            <param name="filter">The filter.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.GetListPaging(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}},System.Int32@,System.Int32,System.Int32)">
+            <summary>
+            Gets the list paging.
+            </summary>
+            <param name="filter">The filter.</param>
+            <param name="total">The total.</param>
+            <param name="index">The index.</param>
+            <param name="size">The size.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Add(`0)">
+            <summary>
+            Adds the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">entity</exception>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Update(`0)">
+            <summary>
+            Updates the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentNullException">entity</exception>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Delete(`0)">
+            <summary>
+            Deletes the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <exception cref="T:System.ArgumentNullException">entity</exception>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.AddRange(System.Collections.Generic.IEnumerable{`0})">
+            <summary>
+            Adds the range.
+            </summary>
+            <param name="listEntity">The list entity.</param>
+            <exception cref="T:System.ArgumentNullException">listEntity</exception>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Delete(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Deletes the specified filter.
+            </summary>
+            <param name="filter">The filter.</param>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.DeleteAll(System.Linq.Expressions.Expression{System.Func{`0,System.Boolean}})">
+            <summary>
+            Deletes all.
+            </summary>
+            <param name="filter">The filter.</param>
+        </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Dispose">
+            <summary>
+            Releases unmanaged and - optionally - managed resources.
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.Enums.LogType">
+            <summary>
+            Loglama tipi.
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.LogType.Db">
+            <summary>
+            Veritabanı
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.LogType.File">
+            <summary>
+            Dosya
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.Enums.ResultStatusCode">
+            <summary>
+            İş katmanında işlem sonuçlarının işlem kodu için kullanılır.
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.Ok">
+            <summary>
+            Başarılı
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.Unauthorized">
+            <summary>
+            Yetki Sorunu
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.Forbidden">
+            <summary>
+            Yasak
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.NotFound">
+            <summary>
+            Bulunamadı
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.InternalServerError">
+            <summary>
+            Sunucu Hatası
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.ExistingItem">
+            <summary>
+            Kayıt Bulunamadı
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.Warning">
+            <summary>
+            Uyarı
+            </summary>
+        </member>
+        <member name="F:SampleCoreArch.Core.Enums.ResultStatusCode.Info">
+            <summary>
+            Bilgilendirme
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.Helpers.LogExtensionMethods">
+            <summary>
+            Loglama işlemi sırasında exception lar için yazılmış extension method.
+            </summary>
+        </member>
+        <member name="M:SampleCoreArch.Core.Helpers.LogExtensionMethods.ToLog(System.Exception,System.String,System.String)">
+            <summary>
+            Exception mesajını düzenleyerek belli bir formatta string olarak return eder.
+            </summary>
+            <param name="ex">The ex.</param>
+            <param name="methodName">Log kaydının atıldığı method adı.</param>
+            <param name="fullName">Log kaydının atıldığı full class yolu.Örn : typeof(T).FullName</param>
+            <returns></returns>
+        </member>
+        <member name="T:SampleCoreArch.Core.Logging.CustomLoggerProvider">
+            <inheritdoc />
+            <summary>
+            
+            </summary>
+            <seealso cref="T:Microsoft.Extensions.Logging.ILoggerProvider" />
+        </member>
+        <member name="M:SampleCoreArch.Core.Logging.CustomLoggerProvider.#ctor(System.IServiceProvider)">
+            <summary>
+            Initializes a new instance of the <see cref="T:SampleCoreArch.Core.Logging.CustomLoggerProvider"/> class.
+            </summary>
+            <param name="serviceProvider">The service provider.</param>
+        </member>
+        <member name="M:SampleCoreArch.Core.Logging.CustomLoggerProvider.Microsoft#Extensions#Logging#ILoggerProvider#CreateLogger(System.String)">
+            <inheritdoc />
+            <summary>
+            Creates the logger.
+            </summary>
+            <param name="category">The category.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SampleCoreArch.Core.Logging.EventLog">
+            <summary>
+            Loglama mdel nesnesi.
+            </summary>
+            <seealso cref="T:SampleCoreArch.Core.Interfaces.IEntity" />
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.Id">
+            <summary>
+            Birincil otomatik artan alan.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.Message">
+            <summary>
+            Log mesajı.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.EventId">
+            <summary>
+            Log işlem id alanı..
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.LogLevel">
+            <summary>
+            Loglama seviyesi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.IpAdress">
+            <summary>
+            Kullanıcı ip adresi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.HostName">
+            <summary>
+            Host adı.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Logging.EventLog.CreatedTime">
+            <summary>
+            Log oluşturulma tarihi.
+            </summary>
+        </member>
+        <member name="T:SampleCoreArch.Core.Utility.DictionaryParser">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.DictionaryParser.ParseKey``2(System.Collections.Generic.Dictionary{``0,``1},``1)">
+            <summary>
+            Parses the key.
+            </summary>
+            <typeparam name="TKey">The type of the key.</typeparam>
+            <typeparam name="TValue">The type of the value.</typeparam>
+            <param name="repository">The repository.</param>
+            <param name="byValue">The by value.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.DictionaryParser.ParseValue``2(System.Collections.Generic.Dictionary{``0,``1},``0)">
+            <summary>
+            Parses the value.
+            </summary>
+            <typeparam name="TKey">The type of the key.</typeparam>
+            <typeparam name="TValue">The type of the value.</typeparam>
+            <param name="repository">The repository.</param>
+            <param name="byKey">The by key.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SampleCoreArch.Core.Utility.SampleUtility">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.LiteDbConnStr">
+            <summary>
+            LiteDb bağlantı bilgisi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.LiteDbConnection">
+            <summary>
+             LiteDb bağlantı bilgisi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.SqlDbConnStr">
+            <summary>
+            Mssql bağlantı bilgisi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.DefaultLogLevel">
+            <summary>
+            Default loglama seviyesi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.LogType">
+            <summary>
+            Loglama tipi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.LogWriteTextToFile">
+            <summary>
+            Dosya tabanlı loglamada kullanılacak isimlendirme formatı.
+            </summary>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.SampleUtility.GetAppSetting``1(System.String,``0)">
+            <summary>
+            AppSetting değerini getirir.
+            </summary>
+            <typeparam name="T">Dönüş tipi.</typeparam>
+            <param name="key">AppSetting key adı.</param>
+            <param name="defaultValue">AppSetting key bulunamazsa default değeri.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.SampleUtility.SendMail(SampleCoreArch.Core.Concrete.MailModel)">
+            <summary>
+            Mail gönderme işlemi.
+            </summary>
+            <param name="mailModel">Ma ilModel tipinde model alır.</param>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.SampleUtility.GetIp4Adress">
+            <summary>
+            Kullanıcının ip bilgisini döner.
+            </summary>
+            <returns>Kullanıcı İp bilgisini string tipinde döner.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,42 @@
+﻿@model Result<IEnumerable<Category>>
+@{
+    ViewData["Title"] = "Index";
+}
+<h2>Index</h2>
+<p>
+    <a data-bind="click:$root.create" asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                CategoryId
+            </th>
+            <th>
+                CategoryName
+            </th>
+            <th>
+                SeoUrl
+            </th>
+            <th>
+                Status
+            </th>
+            <th>
+                UserId
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach:items">
+        <tr>
+            <td data-bind="text:CategoryId"></td>
+            <td data-bind="text:CategoryName"></td>
+            <td data-bind="text:SeoUrl"></td>
+            <td data-bind="text:Status"></td>
+            <td data-bind="text:UserId"></td>
+            <td>
+                <a data-bind="click:$root.detail" href="">Detail</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

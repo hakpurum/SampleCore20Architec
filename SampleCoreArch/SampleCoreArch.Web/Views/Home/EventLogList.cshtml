@@ -1,0 +1,68 @@
+﻿ @model IEnumerable<SampleCoreArch.Core.Logging.EventLog>
+<p>
+    <a asp-action="Create">Create Newee</a>
+
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Message)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EventId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LogLevel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IpAdress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HostName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedTime)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @*@Html.DisplayFor(modelItem => item.Message)*@
+                test
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LogLevel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IpAdress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HostName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreatedTime)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
