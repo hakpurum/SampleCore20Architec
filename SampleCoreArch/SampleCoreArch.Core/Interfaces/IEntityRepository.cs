@@ -18,6 +18,7 @@ namespace SampleCoreArch.Core.Interfaces
         void Delete(Expression<Func<T, bool>> filter);
         void DeleteAll(Expression<Func<T, bool>> filter = null);
 
+        void CustomSaveChanges();
         void Dispose();
     }
 }

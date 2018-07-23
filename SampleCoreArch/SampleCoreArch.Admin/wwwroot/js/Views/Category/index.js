@@ -9,7 +9,7 @@ function ProductsViewModel() {
     var baseUri = '';
 
     self.create = function () {
-        App.Get("/Category/Create/?format=json", null, function (response) {
+        Common.Get("/Category/Create/?format=json", null, function (response) {
             self.selectedItem(response.ResultObject);
         });
 
@@ -29,7 +29,7 @@ function ProductsViewModel() {
         $(formElement).validate();
         if ($(formElement).valid()) {
             console.log(ko.toJSON(self.selectedItem));
-            App.Get(url, null, function (response) {
+            Common.Get(url, null, function (response) {
                 self.items(response.ResultObject);
             });
             $('#myModal').modal('hide');
@@ -50,7 +50,7 @@ function ProductsViewModel() {
         $('#myModal').modal('show');
     }
     
-    App.Get(url, null, function (response) {
+    Common.Get(url, null, function (response) {
         self.items(response.ResultObject);
     });
 }

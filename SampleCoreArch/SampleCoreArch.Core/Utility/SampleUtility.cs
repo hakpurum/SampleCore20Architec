@@ -27,6 +27,11 @@ namespace SampleCoreArch.Core.Utility
         public static LiteDB.ConnectionString LiteDbConnection => new LiteDB.ConnectionString(LiteDbConnStr);
 
         /// <summary>
+        /// SqlLite bağlantı bilgisi.
+        /// </summary>
+        public static string SqlLiteDbConnStr => GetAppSetting<string>("connectionStrings:SqlLiteDbConn", null);
+
+        /// <summary>
         /// Mssql bağlantı bilgisi.
         /// </summary>
         public static string SqlDbConnStr => GetAppSetting<string>("connectionStrings:SqlDbConn", null);
@@ -169,6 +174,42 @@ namespace SampleCoreArch.Core.Utility
             var hostAdress = Dns.GetHostName();
             var ipadress = Dns.GetHostEntry(hostAdress).AddressList.FirstOrDefault(f => f.AddressFamily == AddressFamily.InterNetwork);
             return ipadress?.ToString() ?? "-1";
+        }
+
+        /// <summary>
+        /// Türkçe karakterleri temizler.
+        /// </summary>
+        /// <param name="text">The text.</param>
+        /// <returns></returns>
+        public static string RemoveAccent(string text)
+        {
+            var strReturn = (!string.IsNullOrEmpty(text)) ? text.Trim() : "";
+            strReturn = strReturn.Replace("ğ", "g");
+            strReturn = strReturn.Replace("Ğ", "G");
+            strReturn = strReturn.Replace("ü", "u");
+            strReturn = strReturn.Replace("Ü", "U");
+            strReturn = strReturn.Replace("ş", "s");
+            strReturn = strReturn.Replace("Ş", "S");
+            strReturn = strReturn.Replace("ı", "i");
+            strReturn = strReturn.Replace("İ", "I");
+            strReturn = strReturn.Replace("ö", "o");
+            strReturn = strReturn.Replace("Ö", "O");
+            strReturn = strReturn.Replace("ç", "c");
+            strReturn = strReturn.Replace("Ç", "C");
+            strReturn = strReturn.Replace("-", "+");
+            strReturn = strReturn.Replace(" ", "+");
+            strReturn = strReturn.Replace("?", "+");
+            strReturn = strReturn.Replace("!", "+");
+            strReturn = strReturn.Replace("*", "+");
+            strReturn = strReturn.Replace("(", "+");
+            strReturn = strReturn.Replace(")", "+");
+            strReturn = strReturn.Replace("{", "+");
+            strReturn = strReturn.Replace("}", "+");
+            strReturn = strReturn.Replace("[", "+");
+            strReturn = strReturn.Replace("]", "+");
+            strReturn = strReturn.Trim();
+            strReturn = strReturn.Replace("+", "-");
+            return strReturn;
         }
     }
 }

@@ -8,3 +8,13 @@ D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.AssemblyInfo.cs
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.xml
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.deps.json
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.csproj.CoreCompileInputs.cache
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.AssemblyInfoInputs.cache
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.AssemblyInfo.cs
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Core\obj\Debug\netcoreapp2.0\SampleCoreArch.Core.csprojAssemblyReference.cache

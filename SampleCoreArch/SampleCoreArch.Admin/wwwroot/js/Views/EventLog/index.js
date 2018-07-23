@@ -19,21 +19,22 @@ var EventLog = function (data) {
         { name: "George", type: "Hippo" },
         { name: "Zippy", type: "Unknown" }
     ]);
-    
+
     self.selectedCountry = ko.observable();
 };
 
 
 function RecordViewModel() {
-    var url = "/EventLog/Index/?format=json";
+    var baseUri = 'http://localhost:55095';
+    var url = baseUri + "/EventLog/Index/?format=json";
     var self = this;
     self.items = ko.observableArray();
     self.selectedItem = ko.observable(new EventLog());
-    
-    var baseUri = '';
+
+
 
     self.create = function () {
-        App.Get("/EventLog/Create/?format=json", null, null, function (response) {
+        Common.Get(baseUri + "/EventLog/Create/?format=json", null, null, function (response) {
             self.selectedItem(response.ResultObject);
         });
 
@@ -53,7 +54,7 @@ function RecordViewModel() {
         $(formElement).validate();
         if ($(formElement).valid()) {
             console.log(ko.toJSON(self.selectedItem));
-            App.Get(url, null, null, function (response) {
+            Common.Get(url, null, null, function (response) {
                 self.items(response.ResultObject);
             });
             $('#myModal').modal('hide');
@@ -73,10 +74,9 @@ function RecordViewModel() {
         self.selectedItem(new EventLog(record));
         $('#myModal').modal('show');
     }
-    
-    App.Get("/EventLog/Index/?format=json", null, null, function (response) {
+
+    Common.Get(url, null, null, function (response) {
         self.items(response.ResultObject);
-        
     });
 }
 

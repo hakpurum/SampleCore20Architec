@@ -1,0 +1,26 @@
+﻿@{
+    var controllerName = ViewContext.RouteData.Values["controller"].ToString();
+    var actionName = ViewContext.RouteData.Values["action"].ToString();
+    var pageLink = $"/{controllerName}/{actionName}";
+}
+@if (ViewBag.Title != null)
+{
+    <!-- BEGIN PAGE HEADER-->
+    <h3 class="page-title">
+        @ViewBag.Title
+    </h3>
+    <div class="page-bar">
+        <ul class="page-breadcrumb">
+            <li>
+                <i class="fa fa-home"></i>
+                <a href="/">Anasayfa</a>
+                <i class="fa fa-angle-right"></i>
+            </li>
+            <li>
+                <a href="@pageLink">@ViewBag.Title</a>
+                <i class="fa"></i>
+            </li>
+        </ul>
+    </div>
+    <!-- END PAGE HEADER-->
+}

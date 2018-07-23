@@ -5157,11 +5157,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj",
+      "projectUniqueName": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj",
       "projectName": "SampleCoreArch.Entities",
-      "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj",
+      "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj",
       "packagesPath": "C:\\Users\\hakpurum\\.nuget\\packages\\",
-      "outputPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Entities\\obj\\",
+      "outputPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5180,8 +5180,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj": {
-              "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj"
+            "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj": {
+              "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj"
             }
           }
         }

@@ -1,4 +1,4 @@
-﻿var App = {
+﻿var Common = {
 
     DataTableConfig: function () {
         var datatableLang = {
@@ -64,7 +64,6 @@
     Get: function (url, dataType, data, callback) {
         if (dataType == null)
             dataType = "json";
-
         waitingDialog.show("Lütfen bekleyiniz...");
         $.ajax({
             type: "GET",

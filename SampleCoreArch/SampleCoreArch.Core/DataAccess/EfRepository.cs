@@ -175,6 +175,15 @@ namespace SampleCoreArch.Core.DataAccess
         }
 
         /// <summary>
+        /// UnitOfWork kullanılmak istenmediğinde SaveChange işlemi manuel olarak tetiklenir.
+        /// </summary>
+        /// <exception cref="NotImplementedException"></exception>
+        public void CustomSaveChanges()
+        {
+            Context.SaveChanges();
+        }
+
+        /// <summary>
         /// Releases unmanaged and - optionally - managed resources.
         /// </summary>
         public void Dispose()
@@ -182,5 +191,7 @@ namespace SampleCoreArch.Core.DataAccess
             Context?.Dispose();
             GC.SuppressFinalize(this);
         }
+
+       
     }
 }

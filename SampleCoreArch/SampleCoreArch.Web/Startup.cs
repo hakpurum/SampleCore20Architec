@@ -32,6 +32,7 @@ namespace SampleCoreArch.Web
                     config.Filters.Add(new KoBindFilterAttribute());
                 }).AddXmlFormaterExtensions();
 
+            services.AddCors();
             //services.AddMvc().AddXmlFormaterExtensions();
             services.AddDataLayerServices();
             services.AddBusinessServices();
@@ -59,6 +60,12 @@ namespace SampleCoreArch.Web
             }
 
             app.UseStaticFiles();
+
+            app.UseCors(builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
 
             app.UseMvc(routes =>
             {

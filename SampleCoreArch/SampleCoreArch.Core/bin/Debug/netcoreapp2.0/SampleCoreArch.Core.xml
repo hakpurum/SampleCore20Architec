@@ -201,6 +201,12 @@
             </summary>
             <param name="filter">The filter.</param>
         </member>
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.CustomSaveChanges">
+            <summary>
+            UnitOfWork kullanılmak istenmediğinde SaveChange işlemi manuel olarak tetiklenir.
+            </summary>
+            <exception cref="T:System.NotImplementedException"></exception>
+        </member>
         <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.Dispose">
             <summary>
             Releases unmanaged and - optionally - managed resources.
@@ -382,6 +388,11 @@
              LiteDb bağlantı bilgisi.
             </summary>
         </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.SqlLiteDbConnStr">
+            <summary>
+            SqlLite bağlantı bilgisi.
+            </summary>
+        </member>
         <member name="P:SampleCoreArch.Core.Utility.SampleUtility.SqlDbConnStr">
             <summary>
             Mssql bağlantı bilgisi.
@@ -422,6 +433,13 @@
             Kullanıcının ip bilgisini döner.
             </summary>
             <returns>Kullanıcı İp bilgisini string tipinde döner.</returns>
+        </member>
+        <member name="M:SampleCoreArch.Core.Utility.SampleUtility.RemoveAccent(System.String)">
+            <summary>
+            Türkçe karakterleri temizler.
+            </summary>
+            <param name="text">The text.</param>
+            <returns></returns>
         </member>
     </members>
 </doc>

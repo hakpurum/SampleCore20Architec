@@ -5139,11 +5139,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj",
+      "projectUniqueName": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj",
       "projectName": "SampleCoreArch.Core",
-      "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj",
+      "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj",
       "packagesPath": "C:\\Users\\hakpurum\\.nuget\\packages\\",
-      "outputPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\obj\\",
+      "outputPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

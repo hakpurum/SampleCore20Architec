@@ -122,11 +122,12 @@
             The dbset
             </summary>
         </member>
-        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.#ctor(Microsoft.EntityFrameworkCore.DbContext)">
+        <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.#ctor(Microsoft.EntityFrameworkCore.DbContext,System.String[])">
             <summary>
             Initializes a new instance of the <see cref="T:SampleCoreArch.Core.DataAccess.EfRepository`1"/> class.
             </summary>
             <param name="context">The context.</param>
+            <param name="includes">Dahil edilecek Tablolar</param>
         </member>
         <member name="M:SampleCoreArch.Core.DataAccess.EfRepository`1.GetFindById(System.Int32)">
             <summary>
@@ -380,6 +381,11 @@
         <member name="P:SampleCoreArch.Core.Utility.SampleUtility.LiteDbConnection">
             <summary>
              LiteDb bağlantı bilgisi.
+            </summary>
+        </member>
+        <member name="P:SampleCoreArch.Core.Utility.SampleUtility.SqlLiteDbConnStr">
+            <summary>
+            SqlLite bağlantı bilgisi.
             </summary>
         </member>
         <member name="P:SampleCoreArch.Core.Utility.SampleUtility.SqlDbConnStr">

@@ -10,3 +10,16 @@ D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Entities\obj\De
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.AssemblyInfo.cs
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.dll
 D:\Store\VisualStudio\2017\Project\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.deps.json
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.dll
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Entities.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.dll
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\bin\Debug\netcoreapp2.0\SampleCoreArch.Core.xml
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.csproj.CoreCompileInputs.cache
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.AssemblyInfoInputs.cache
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.AssemblyInfo.cs
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.dll
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.pdb
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.csprojAssemblyReference.cache
+D:\Github\SampleCore20Architec\SampleCoreArch\SampleCoreArch.Entities\obj\Debug\netcoreapp2.0\SampleCoreArch.Entities.csproj.CopyComplete

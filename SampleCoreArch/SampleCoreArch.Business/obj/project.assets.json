@@ -5198,11 +5198,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Business\\SampleCoreArch.Business.csproj",
+      "projectUniqueName": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Business\\SampleCoreArch.Business.csproj",
       "projectName": "SampleCoreArch.Business",
-      "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Business\\SampleCoreArch.Business.csproj",
+      "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Business\\SampleCoreArch.Business.csproj",
       "packagesPath": "C:\\Users\\hakpurum\\.nuget\\packages\\",
-      "outputPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Business\\obj\\",
+      "outputPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5221,14 +5221,14 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj": {
-              "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj"
+            "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj": {
+              "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Core\\SampleCoreArch.Core.csproj"
             },
-            "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj": {
-              "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj"
+            "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj": {
+              "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.Entities\\SampleCoreArch.Entities.csproj"
             },
-            "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.DataLayer\\SampleCoreArch.DataLayer.csproj": {
-              "projectPath": "D:\\Store\\VisualStudio\\2017\\Project\\SampleCoreArch\\SampleCoreArch.DataLayer\\SampleCoreArch.DataLayer.csproj"
+            "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.DataLayer\\SampleCoreArch.DataLayer.csproj": {
+              "projectPath": "D:\\Github\\SampleCore20Architec\\SampleCoreArch\\SampleCoreArch.DataLayer\\SampleCoreArch.DataLayer.csproj"
             }
           }
         }

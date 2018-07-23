@@ -95,5 +95,10 @@ namespace SampleCoreArch.Core.DataAccess
             _liteRepository.Dispose();
             GC.SuppressFinalize(this);
         }
+
+        public void CustomSaveChanges()
+        {
+            
+        }
     }
 }
