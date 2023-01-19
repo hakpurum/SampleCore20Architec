@@ -1,4 +1,4 @@
-# SampleCore20Architec
+# SampleCore20Architect
 .net core 2.0 çatısı altında;
 
 Kurumsal Mimari
